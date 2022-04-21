@@ -4,3 +4,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .wrapper {
+		@apply px-16 py-20 my-4;
+  }
+  mark {
+    @apply text-blue-500 bg-transparent font-medium;
+  }
+  body {
+    font-family: "Inter", "sans-serif";
+  }
+}
