@@ -11,7 +11,7 @@ const styles = {
   logo: 'flex semibold text-2xl gap-2 cursor-pointer font-semibold mr-32 font-header',
   navWrapper: "flex items-center",
   linkContainer: "flex gap-8",
-  linkItem: "capitalize cursor-pointer text-gray-500",
+  linkItem: "capitalize cursor-pointer text-gray-500 hover:text-darkBlue",
   tools: "flex items-center gap-8",
   searchBox: "flex items-center w-full h-12 bg-white bg-transparent border-b border-gray-300",
   searchBoxInput: "w-full h-full p-2 outline-none bg-transparent",

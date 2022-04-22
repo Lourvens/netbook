@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+import { FaArrowRight } from 'react-icons/fa'
 
 function Card({ title, banner }) {
   const styles = {
     container: "w-[300px]",
-    link: "transition-colors text-gray-500 hover:text-blue-500",
+    link: "transition-colors text-gray-500 hover:text-blue-500 flex items-center gap-2",
     imgBox: "rounded-2xl overflow-hidden",
     title: "text-lg text-darkBlue capitalize pb-2"
   }
@@ -17,7 +18,7 @@ function Card({ title, banner }) {
         <hr className="border-t-4 border-[#FFAF2E] w-16 mt-4"/>
         <div>
           <h1 className={styles.title}>{title}</h1>
-          <a href="#" className={styles.link}>continue reading</a>
+          <a href="#" className={styles.link}>continue reading <FaArrowRight /> </a>
         </div>
       </div>
     </div>
